@@ -1,0 +1,41 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.album-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.album-img {
+  height: 100px;
+}
+.duration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.del-btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+.duration {
+  color: white;
+  font-size: 20px;
+}
+.genre-container {
+  color: white;
+  margin-left: 10px;
+}
+.item-name {
+  font-weight: 600;
+  font-size: 20px;
+}
+.genre {
+  color: #3b82f6;
+  font-weight: 600;
+  font-size: 20px;
+}
